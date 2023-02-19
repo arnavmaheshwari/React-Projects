@@ -1,0 +1,66 @@
+.complete_list{
+    padding: 10px;
+}
+
+.textbox2{
+    width: 300px;
+    height: 30px;
+    border-radius: 25px;
+    outline: none;
+    padding: 9px 15px;
+    border: 3px solid rgb(150, 243, 250);
+}
+
+.button3{
+    all:unset;
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+    font-weight: 700;
+    transition: background-color 0.7s;
+}
+.button3:hover{
+    background-color: rgb(97, 213, 213);
+}
+
+.single_movie{
+    box-shadow: 3px 3px 3px 10px rgb(150, 243, 250);
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+    color: rgb(97, 144, 100);
+    transition: box-shadow 0.7s;
+}
+
+.single_movie:hover{
+    box-shadow: 1px 2px 10px 1px rgb(23, 220, 231);
+}
+.view{
+    display: none;
+    transition: display 0.7s;
+}
+
+.single_movie:hover .view{
+    display: inline-block;
+    transition: display 0.7s;
+}
+
+
+
+/* .hidden{
+    display: none;
+}
+
+.show{
+    display: inline-block;
+} */
